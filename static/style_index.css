@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Rubik&display=swap');
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  background: linear-gradient(to top, #662525c8,30%, #080409); 
+  background-color: #080409 !important;
+}
+
+div > img {
+    margin-top: 10px;
+    width: 800px;
+    border-radius: 30px !important;
+}
+
+
+
+div > ul {
+    list-style: none !important;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+div > ul > li {
+    border: solid 2px red;
+    padding: 5px;
+    margin: 30px;
+    border-radius: 500px;
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    color: transparent;    
+	  -webkit-background-clip: text;
+	  background-clip: text;
+	  background-image: linear-gradient(to bottom, rgb(201, 83, 83),60%, rgb(14, 3, 14));
+    
+}
+
+
+
+a {
+  text-decoration-line: none !important;
+  text-decoration: none !important;
+  text-decoration-color: none !important;
+  font-family: 'Lilita One', cursive;
+  font-size: 30px;
+  color: transparent !important;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, rgb(212, 84, 84),70%, rgb(2, 1, 2));
+}
+
+
+a:hover {
+  text-decoration-line: none !important;
+  text-decoration: none !important;
+  text-decoration-color: none !important;
+  font-family: 'Lilita One', cursive;
+  font-size: 30px;
+  color: transparent !important;    
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-image: linear-gradient(to bottom, rgb(59, 25, 25),70%, rgb(60, 15, 60));
+}
+nav,
+.scroll-container {
+  margin: 0;
+  text-align: center;
+}
+.scroll-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.scroll-page {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 5em;
+}
+.r {
+  width: 900px;
+}
+
+@media (max-width: 815px) {
+  div > img {
+    margin-top: 10px;
+    width: 600px;
+    border-radius: 30px !important;
+}
+.r {
+  width: 700px;
+}
+}
+
+@media (max-width: 715px) {
+  .r {
+    width: 650px;
+  }
+}
+
+@media (max-width: 615px) {
+  div > img {
+    margin-top: 10px;
+    width: 500px;
+    border-radius: 30px !important;
+}
+.r {
+  width: 500px;
+}
+}
+
+@media (max-width: 514px) {
+  div > img {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 30px !important;
+}
+.r {
+  width: 400px;
+}
+}
+
+@media (max-width: 404px) {
+  div > img {
+    margin-top: 10px;
+    width: 300px;
+    border-radius: 30px !important;
+}
+.r {
+  width: 300px;
+}
+div > ul {
+  list-style: none !important;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+}
+div > ul > li {
+  border: solid 2px red;
+  border-radius: 500px;
+  margin: 10px;
+  font-family: 'Lilita One', cursive;
+  font-size: 30px;
+  color: transparent;    
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-image: linear-gradient(to bottom, rgb(209, 93, 93),20%, rgb(14, 3, 14));
+  
+}
+
